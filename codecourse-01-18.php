@@ -1,5 +1,49 @@
 <?php
 
+$maxRoomsAllowed = 5;
+$roomsRequested = 5;
+$roomAvailable = 20;
+
+if (($roomsRequested >= $roomAvailable) || ($roomsRequested >= $maxRoomsAllowed)) {
+    # code...
+    echo 'Please choose less rooms.';
+} else {
+    echo 'Your booking is complete!';
+}
+
+// $username = 'ml';
+// $password = 'whitecrow123';
+
+
+// if ($username == 'mlemz' && $password == 'whitecrow123') {
+//     echo 'You are in!';
+// } else {
+//     echo 'You put the wrong username/password.';
+// }
+
+
+// $dayOfWeek = 2;
+
+// $daysOfWeek = [
+//     1 => 'Monday',
+//     2 => 'Tuesday',
+//     3 => 'Wednesday'
+// ];
+
+// if (in_array($dayOfWeek, array_keys($daysOfWeek))) {
+//     echo $daysOfWeek[$dayOfWeek];
+// } else {
+//     echo 'That is not a valid day.';
+// }
+
+
+// $weather = 'sunny';
+// $degrees = 30.5;
+
+// $status = ' The weather is '. $weather .' and it\'s '. $degrees .' degrees. ';
+
+// echo $status;
+
 
 
 
