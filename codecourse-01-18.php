@@ -1,15 +1,15 @@
 <?php
 
-$maxRoomsAllowed = 5;
-$roomsRequested = 5;
-$roomAvailable = 20;
+// $maxRoomsAllowed = 5;
+// $roomsRequested = 5;
+// $roomAvailable = 20;
 
-if (($roomsRequested >= $roomAvailable) || ($roomsRequested >= $maxRoomsAllowed)) {
-    # code...
-    echo 'Please choose less rooms.';
-} else {
-    echo 'Your booking is complete!';
-}
+// if (($roomsRequested >= $roomAvailable) || ($roomsRequested >= $maxRoomsAllowed)) {
+//     # code...
+//     echo 'Please choose less rooms.';
+// } else {
+//     echo 'Your booking is complete!';
+// }
 
 // $username = 'ml';
 // $password = 'whitecrow123';
